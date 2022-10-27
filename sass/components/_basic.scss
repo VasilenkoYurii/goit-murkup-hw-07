@@ -31,6 +31,10 @@ p {
   margin-bottom: 0;
 }
 
+input {
+  outline: none;
+}
+
 .conteiner {
   margin-left: auto;
   margin-right: auto;
@@ -44,4 +48,15 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
+}
+
+.section-title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
